@@ -1,0 +1,28 @@
+@selector: ~'single-spa-application:@app1/program';
+#app{
+    height: calc(100% - 75px);
+}
+.main {
+    height: 100%;
+    display: flex;
+
+    .menu {
+        width: 240px;
+        background: #111D4A;
+        height: inherit;
+        .ant-menu-title-content{
+            font-size: 18px;
+        }
+    }
+
+    .content {
+        height: inherit;
+        overflow: auto;
+        display: flex;
+        justify-content: center;
+        padding-top: 30px;
+        font-size: 30px;
+        font-weight: bolder;
+        width: calc(100% - 240px);
+    }
+}
